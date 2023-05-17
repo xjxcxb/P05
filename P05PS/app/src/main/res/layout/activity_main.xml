@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/_ac643ae44068240eae3609036752670"
+    android:padding="50dp">
+
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        android:text="Modules for This Semester"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+
+        android:textStyle="bold" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:background="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/module1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 1: C346 - Mobile App Development" />
+
+
+
+    <TextView
+        android:id="@+id/module2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 2: C203 - Web Appln Development in php" />
+
+    <TextView
+        android:id="@+id/module3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 3: G953 - Life Skills III" />
+
+    <TextView
+        android:id="@+id/module4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 4: C218 - UI/UX Design for Apps" />
+
+    <TextView
+        android:id="@+id/module5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 5: C235 - IT Security and Management" />
+
+    <TextView
+        android:id="@+id/module6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border"
+        android:text="Module 6: C206 - Software Development Process" />
+
+    <TextView
+        android:id="@+id/module7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="Module 7: C390 - Portfolio Development" />
+
+</LinearLayout>
